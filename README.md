@@ -108,23 +108,26 @@ Decentralized-Simple-Registry/
 
 
 
-│
+
 ├── contracts/
 │   └── SimpleRegistry.sol
-│
+
 
 
 
 
 ├── cpp/
 │   ├── main.cpp
+
 │   ├── Registry.cpp
+
 │   └── Registry.h
-│
+
 
 
 
 ├── scripts/
+
 │   └── deploy.js
 │
 
@@ -132,6 +135,7 @@ Decentralized-Simple-Registry/
 
 
 ├── test/
+
 │   └── SimpleRegistry.js
 │
 
@@ -139,7 +143,9 @@ Decentralized-Simple-Registry/
 
 
 ├── docs/
+
 │   ├── architecture.md
+
 │   └── lifecycle.md
 │
 
