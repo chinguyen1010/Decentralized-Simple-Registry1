@@ -44,16 +44,25 @@ permanently on-chain
 
 
 5. Smart Contract Design
+   
 Record Struct
+
 struct Record {
+
   string id;
+  
   address owner;
+  
   string data;
+  
   uint256 timestamp;
+  
 }
 
-Key Functions
+Key Functions:
+
 Function	Description
+
 createRecord(id, data)	Creates a new record, enforces unique IDs
 
 getRecord(id)	          Returns stored record fields
@@ -106,7 +115,34 @@ Why blockchain makes this possible:
 
 
 7. Project Structure
-D
 
+Decentralized-Simple-Registry/
+│
+├── contracts/
+│ └── SimpleRegistry.sol
+│
+├── cpp/
+│ ├── main.cpp
+│ ├── Registry.cpp
+│ └── Registry.h
+│
+├── scripts/
+│ └── deploy.js
+│
+├── test/
+│ └── SimpleRegistry.js
+│
+├── docs/
+│ ├── architecture.md
+│ └── lifecycle.md
+│
+├── presentation/
+│ └── (slide deck files)
+│
+├── LICENSE
+├── README.md
+├── hardhat.config.js
+├── package.json
+└── package-lock.json
 
 
