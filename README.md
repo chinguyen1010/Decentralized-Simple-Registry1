@@ -39,7 +39,7 @@ publicly verifiable
 permanently on-chain
 
 3. System Architecture
-  <img width="1384" height="593" alt="Screenshot 2025-11-17 at 1 40 17 PM" src="https://github.com/user-attachments/assets/dbe2b415-5f2d-45f9-9b8b-bc2af9fdacce" />
+<img width="1377" height="588" alt="Screenshot 2025-11-17 at 1 41 00 PM" src="https://github.com/user-attachments/assets/69176a57-8804-4f85-8b7d-8af779a087f7" />
 
 
 
@@ -109,24 +109,30 @@ Decentralized-Simple-Registry/
 ├── contracts/
 │   └── SimpleRegistry.sol
 │
+
 ├── cpp/
 │   ├── main.cpp
 │   ├── Registry.cpp
 │   └── Registry.h
 │
+
 ├── scripts/
 │   └── deploy.js
 │
+
 ├── test/
 │   └── SimpleRegistry.js
 │
+
 ├── docs/
 │   ├── architecture.md
 │   └── lifecycle.md
 │
+
 ├── presentation/
 │   └── (slide deck files)
 │
+
 ├── LICENSE
 ├── README.md
 ├── hardhat.config.js
