@@ -119,25 +119,25 @@ Why blockchain makes this possible:
 Decentralized-Simple-Registry/
 │
 ├── contracts/
-│ └── SimpleRegistry.sol
+│   └── SimpleRegistry.sol
 │
 ├── cpp/
-│ ├── main.cpp
-│ ├── Registry.cpp
-│ └── Registry.h
+│   ├── main.cpp
+│   ├── Registry.cpp
+│   └── Registry.h
 │
 ├── scripts/
-│ └── deploy.js
+│   └── deploy.js
 │
 ├── test/
-│ └── SimpleRegistry.js
+│   └── SimpleRegistry.js
 │
 ├── docs/
-│ ├── architecture.md
-│ └── lifecycle.md
+│   ├── architecture.md
+│   └── lifecycle.md
 │
 ├── presentation/
-│ └── (slide deck files)
+│   └── (slide deck files)
 │
 ├── LICENSE
 ├── README.md
