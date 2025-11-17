@@ -105,10 +105,16 @@ Event logs enable efficient record tracking outside the chain
 
 7. Project Structure
 Decentralized-Simple-Registry/
+
+
+
 │
 ├── contracts/
 │   └── SimpleRegistry.sol
 │
+
+
+
 
 ├── cpp/
 │   ├── main.cpp
@@ -116,27 +122,42 @@ Decentralized-Simple-Registry/
 │   └── Registry.h
 │
 
+
+
 ├── scripts/
 │   └── deploy.js
 │
 
+
+
+
 ├── test/
 │   └── SimpleRegistry.js
 │
+
+
+
 
 ├── docs/
 │   ├── architecture.md
 │   └── lifecycle.md
 │
 
+
+
 ├── presentation/
 │   └── (slide deck files)
 │
 
+
 ├── LICENSE
+
 ├── README.md
+
 ├── hardhat.config.js
+
 ├── package.json
+
 └── package-lock.json
 
 
