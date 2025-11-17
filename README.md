@@ -55,8 +55,11 @@ struct Record {
 Key Functions
 Function	Description
 createRecord(id, data)	Creates a new record, enforces unique IDs
+
 getRecord(id)	          Returns stored record fields
+
 recordExists(id)	      Checks if ID has been used
+
 Event RecordCreated	    Logs record creation for off-chain use
 
 
@@ -76,95 +79,34 @@ Permissionless usage — any address can store records
 
 
 
-6. How the Project Works (Technical Overview)
-SDKs / Tools Used
+6. How the Project Works (Technical Overview) SDKs / Tools Used
 
-Solidity 0.8.20
+- Solidity 0.8.20
 
-Hardhat development environment
+- Hardhat development environment
 
-Ethers.js for contract interaction
+- Ethers.js for contract interaction
 
-Chai for contract testing
+- Chai for contract testing
 
-Node.js for scripting
+- Node.js for scripting
 
-C++17 for off-chain demo mirror
+- C++17 for off-chain demo mirror
 
-Why blockchain makes this possible
+Why blockchain makes this possible:
 
-Data cannot be modified after creation
+- Data cannot be modified after creation
 
-No central party required to trust
+- No central party required to trust
 
-Wallets inherently create identity bindings
+- Wallets inherently create identity bindings
 
-Event logs enable efficient record tracking outside the chain
+- Event logs enable efficient record tracking outside the chain
 
 
 
 7. Project Structure
-Decentralized-Simple-Registry/
-
-
-
-
-├── contracts/
-│   └── SimpleRegistry.sol
-
-
-
-
-
-├── cpp/
-│   ├── main.cpp
-
-│   ├── Registry.cpp
-
-│   └── Registry.h
-
-
-
-
-├── scripts/
-
-│   └── deploy.js
-│
-
-
-
-
-├── test/
-
-│   └── SimpleRegistry.js
-│
-
-
-
-
-├── docs/
-
-│   ├── architecture.md
-
-│   └── lifecycle.md
-│
-
-
-
-├── presentation/
-│   └── (slide deck files)
-│
-
-
-├── LICENSE
-
-├── README.md
-
-├── hardhat.config.js
-
-├── package.json
-
-└── package-lock.json
+D
 
 
 
