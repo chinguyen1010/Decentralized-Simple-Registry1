@@ -116,32 +116,53 @@ Why blockchain makes this possible:
 
 7. Project Structure
 Decentralized-Simple-Registry/
-|
+
+
 +-- contracts/
+
 |   +-- SimpleRegistry.sol
-|
+
+
 +-- cpp/
+
 |   +-- main.cpp
+
 |   +-- Registry.cpp
+
 |   +-- Registry.h
-|
+
+
+
 +-- scripts/
+
 |   +-- deploy.js
-|
+
+
+
 +-- test/
+
 |   +-- SimpleRegistry.js
-|
+
+
 +-- docs/
+
 |   +-- architecture.md
+
 |   +-- lifecycle.md
-|
+
+
+
 +-- presentation/
-|   +-- (slide deck files)
-|
+
+
 +-- LICENSE
+
 +-- README.md
+
 +-- hardhat.config.js
+
 +-- package.json
+
 +-- package-lock.json
 
 
