@@ -1,42 +1,24 @@
-# Decentralized-Simple-Registry1
-BU BlockChain hackathon Nov 16, 2025
-
-1. Problem Overview
-
-People often need a public, tamper-proof place to store important information such as:
-
-small claims
-
-certification proofs
-
-product serial numbers
-
-asset provenance
-
-Today, these records usually rely on centralized databases with trust, transparency, and durability limitations.
-
-On public blockchains, users are anonymous, and no standard registry exists that allows anyone to verify claims or certificates in a trustless way.
+# Decentralized-Simple-Registry (accredited to BUBlockchain Hackathon)
 
 
-2. Proposed Solution
+1. Problem Statement: People need a public, tamper-proof record for small
+claims, certifications, or asset provenance that is not tied to a centralized
+database.
 
-A smart contract that allows any user to submit a unique ID + text data, automatically storing:
+2. Proposed Solution: A contract that allows any user to submit a text record
+(e.g., a claim, a product serial number, a certification link) along with a
+unique ID, creating a timestamped, permanent entry.
 
-ID
+● Core Smart Contract Logic:
+○ A Struct to define the record (e.g., id, owner_address, data_string,
+timestamp)
 
-creator’s blockchain address
+○ A Mapping to store the records (e.g., mapping of unique id to the
+Record struct)
 
-arbitrary text (claim, certification link, serial number, etc.)
+○ A function createRecord(string memory_id, string memory_data) that checks if the ID is already used and then saves the new record.
 
-timestamp
 
-All entries are:
-
-immutable
-
-publicly verifiable
-
-permanently on-chain
 
 3. System Architecture
 <img width="1377" height="588" alt="Screenshot 2025-11-17 at 1 41 00 PM" src="https://github.com/user-attachments/assets/69176a57-8804-4f85-8b7d-8af779a087f7" />
