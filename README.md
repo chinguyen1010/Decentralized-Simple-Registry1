@@ -43,9 +43,7 @@ struct Record {
   
 }
 
-Key Functions:
-
-Function	Description
+Key Functions: Function	Description
 
 createRecord(id, data)	Creates a new record, enforces unique IDs
 
@@ -53,7 +51,7 @@ getRecord(id)	          Returns stored record fields
 
 recordExists(id)	      Checks if ID has been used
 
-Event RecordCreated	    Logs record creation for off-chain use
+Event RecordCreated	      Logs record creation for off-chain use
 
 
 
