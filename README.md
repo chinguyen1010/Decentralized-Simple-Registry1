@@ -10,6 +10,8 @@ database.
 unique ID, creating a timestamped, permanent entry.
 
 ● Core Smart Contract Logic:
+
+
 ○ A Struct to define the record (e.g., id, owner_address, data_string,
 timestamp)
 
