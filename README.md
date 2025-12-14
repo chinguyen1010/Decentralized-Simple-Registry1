@@ -29,7 +29,7 @@ Record struct)
 
 5. Smart Contract Design
    
-Record Struct
+○ Record Struct
 
 struct Record {
 
@@ -45,28 +45,28 @@ struct Record {
 
 Key Functions: Function	Description
 
-createRecord(id, data)	Creates a new record, enforces unique IDs
+○ createRecord(id, data)	Creates a new record, enforces unique IDs
 
-getRecord(id)	          Returns stored record fields
+○ getRecord(id)	          Returns stored record fields
 
-recordExists(id)	      Checks if ID has been used
+○ recordExists(id)	      Checks if ID has been used
 
-Event RecordCreated	      Logs record creation for off-chain use
+○ Event RecordCreated	      Logs record creation for off-chain use
 
 
 
 
 5. Features Using Blockchain Technology
 
-Immutable storage via EVM mapping(string => Record)
+○ Immutable storage via EVM mapping(string => Record)
 
-Trustless identity using msg.sender
+○ Trustless identity using msg.sender
 
-Auditable creation time using block.timestamp
+○ Auditable creation time using block.timestamp
 
-Event logs enabling scalable off-chain indexing & verification
+○ Event logs enabling scalable off-chain indexing & verification
 
-Permissionless usage — any address can store records
+○ Permissionless usage — any address can store records
 
 
 
