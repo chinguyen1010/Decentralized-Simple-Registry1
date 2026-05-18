@@ -1,4 +1,4 @@
-# Decentralized-Simple-Registry  (BUBlockchain Hackathon)
+# Decentralized-Simple-Registry  
 
 
 1. Problem Statement: People need a public, tamper-proof record for small
